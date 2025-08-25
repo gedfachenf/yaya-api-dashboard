@@ -1,0 +1,45 @@
+@keyframes shooting-star {
+  0% {
+    transform: translateX(-100px) translateY(0px);
+    opacity: 0;
+    width: 2px;
+    height: 2px;
+  }
+  10% {
+    opacity: 1;
+    width: 2px;
+    height: 2px;
+  }
+  90% {
+    opacity: 1;
+    width: 1px;
+    height: 1px;
+  }
+  100% {
+    transform: translateX(calc(100vw + 100px)) translateY(-100px);
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-shooting-star {
+  animation: shooting-star 3s linear infinite;
+  box-shadow: 0 0 6px 2px currentColor;
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
