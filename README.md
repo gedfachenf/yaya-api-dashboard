@@ -19,7 +19,7 @@ This project implements a simple dashboard to monitor transactions made to/from 
 1. **Clone the repository**:
 
    ```bash
-   git clone [<repo-url>](https://github.com/gedfachenf/yaya-api-dashboard)
+   git clone https://github.com/gedfachenf/yaya-api-dashboard
    cd yaya
    ```
 
