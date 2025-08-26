@@ -1,5 +1,7 @@
 # 🚀 YaYa Wallet Transaction Dashboard
 
+> 🔴 live : https://yaya-api-dashboard.vercel.app
+
 This project implements a simple dashboard to monitor transactions made to/from user accounts using the YaYa Wallet REST API.
 
 ## ✨ Features
